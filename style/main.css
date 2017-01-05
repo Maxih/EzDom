@@ -1,10 +1,21 @@
 
 body {
   font-family: Arial;
+  background: #1f2329;
 }
 
+.introduction {
+  display: block;
+  text-align: center;
+  color: #F1F1F1;
+}
 
 .page-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page {
   font-family: Arial;
   font-size: 12px;
   color: #666;
@@ -13,17 +24,38 @@ body {
 }
 
 .page-nav {
-  width: 200px;
+  width: 150px;
+  margin-top: 10px;
+
 }
 
 .page-content {
   flex: 1;
 }
 
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 20px;
+}
+
 a {
-  color: #666;
+  color: #f1f1f1;
   text-decoration: none;
   display: inline-block;
+}
+
+a:hover {
+  color: #6a9fb5;
+}
+
+p {
+  font-size: 15px;
+  line-height: 20px;
 }
 
 i {
@@ -41,4 +73,20 @@ li {
 ul {
   padding: 0;
   margin: 0;
+}
+
+.devicon-ruby-plain {
+  color: #ac4142;
+}
+
+.devicon-javascript-plain {
+  color: #f4bf75;
+}
+
+.devicon-php-plain {
+  color: #46788d;
+}
+
+.devicon-css3-plain {
+  color: #6a9fb5;
 }
